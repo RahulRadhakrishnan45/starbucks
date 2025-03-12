@@ -1,0 +1,121 @@
+body{
+   overflow-x: hidden;
+}
+
+
+.nav-link{
+    color: rgb(54, 52, 52);
+}
+
+.nav-link:hover{
+    color: #00754a;
+}
+
+.first{
+    background: #006241;
+}
+
+.right{
+    align-items: center;
+    justify-content: center;
+    background-color: #006241;
+}
+
+.location-icon:hover{
+    fill: #00754a;
+    color: #00754a;
+}
+
+.location-icon{
+    color:rgb(54, 52, 52) ;
+}
+
+.sign-in:hover{
+    background: rgb(121, 120, 120);
+}
+
+.btn-1:hover{
+    color: #fff;
+    background: #1e3932;
+}
+
+.second{
+    background: #d6ddc7
+}
+
+.left{
+    align-items: center;
+    justify-content: center;
+    color: #32472f;
+    background: #d6ddc7;
+}
+
+.btn-2:hover{
+    color: #32472f ;
+    background: #aeb1a8;
+}
+
+.third{
+    background-color: #5f4633;
+}
+
+.right-1{
+    align-items: center;
+    justify-content: center;
+    background-color: #5f4633;
+}
+
+.btn-3:hover{
+    background: #413023;
+}
+
+.bottom-1{
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-2{
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-2 p{
+    margin-bottom: 0;
+}
+
+.footer-1{
+    align-items: center;
+    justify-content: center;
+}
+
+.col-md-2 a:hover {
+    color: black !important;
+}
+
+@media (max-width: 1023px){
+
+    .footer-1{
+        display: none;
+    }
+}
+
+@media (min-width: 1024px){
+
+    .accordian-1{
+        display: none;
+    }
+}
+
+.terms a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.terms a:hover{
+    text-decoration: underline;
+}
+
+.svg{
+    cursor: pointer;
+}
